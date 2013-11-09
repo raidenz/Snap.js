@@ -34,7 +34,9 @@ html, body {
   width: auto;
   height: auto;
 }
-
+.hidescroll{
+	position: absolute; left: 0px; top: 0px; bottom: 0px; overflow-y: scroll; right: -20px;
+}
 .snap-drawer {
   position: absolute;
   top: 0;
@@ -43,7 +45,7 @@ html, body {
   left: auto;
   width: 265px;
   height: auto;
-  overflow: auto;
+  overflow: hidden;
   -webkit-overflow-scrolling: touch;
   -webkit-transition: width 0.3s ease;
      -moz-transition: width 0.3s ease;
